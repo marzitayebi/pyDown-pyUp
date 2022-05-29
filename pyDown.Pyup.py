@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread("/home/marzi/Documents/python/images/lena-1.jpg")
+img = cv2.imread("Documents/python/images/lena-1.jpg")
 lr1 = cv2.pyrDown(img)
 lr2 = cv2.pyrDown(lr1)
 hr2 = cv2.pyrUp(lr2)
